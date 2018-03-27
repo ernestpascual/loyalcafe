@@ -1,6 +1,8 @@
 <?php
 class DbHelper {
+    // instantiate PDO
     private $db = new PDO("mysql:host=localhost;dbname=loyalcafe","root","");
+
 
     // perform query for points
     function checkPoints($userID){
